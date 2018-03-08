@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700,900" rel="stylesheet">
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 767px) {
@@ -103,13 +103,14 @@ body {
 }
 
 .logo {
-  height: 100px;
+  height: 120px;
   display: flex;
   justify-content: center;
 }
 
 .logoeid {
   height: 80px;
+  margin-top: 20px;
 }
 
 .contactInfo {
@@ -156,19 +157,22 @@ body {
 }
 
 .title {
-  padding: 10px;
-  background-color: #231F20;
-  color: white;
-  border-radius: 20px;
+  color: #231F20;
+  padding: 10px 10px 0px 10px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 36px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .introduction {
+  padding: 0px 10px 10px 10px;
+  line-height: 25px;
+}
+
+.alinea {
   margin-top: 20px;
-  background-color: #EFEFEF;
-  border-radius: 20px;
-  padding: 30px;
 }
 
 .imgcontainer {
@@ -181,6 +185,21 @@ body {
   margin-top: 20px;
   background-color: #EFEFEF;
   border-radius: 20px;
+}
+
+footer {
+  background-color: #231F20;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.foot.smcontainer {
+  background-color: #231F20;
+  width: 80%;
+}
+
+.foot.socialmedia {
+  background-color: #231F20;
 }
 
 a:link {
