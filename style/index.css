@@ -110,7 +110,40 @@ body {
 }
 
 .contactInfo {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #EFEFEF;
+  margin: 10px 0px 10px 0px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.smcontainer {
+  padding: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socialmedia {
+  border-radius: 50px;
+  padding: 3.5px 0px 3.5px 0px;
+  flex-basis: 30%;
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+}
+
+.smlogo {
+  width: 24px;
+  height: 24px;
 }
 
 .main {
@@ -121,11 +154,13 @@ body {
 
 .title {
   background-color: red;
+  padding: 10px;
 }
 
 .introduction {
   margin-top: 20px;
   background-color: green;
+  padding: 10px;
 }
 
 .imgcontainer {
@@ -137,4 +172,23 @@ body {
   height: 150px;
   margin-top: 20px;
   background-color: orange;
+}
+
+a:link {
+  color: #231F20;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #231F20;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #231F20;
+}
+
+a:active {
+  color: #231F20;
 }
