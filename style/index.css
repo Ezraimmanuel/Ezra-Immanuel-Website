@@ -2,7 +2,6 @@
 and (min-device-width : 375px)
 and (max-device-width : 767px) {
   .logo {
-    background-color: ;
     margin-bottom: 20px;
   }
 
