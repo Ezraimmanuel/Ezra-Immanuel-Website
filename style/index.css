@@ -1,0 +1,84 @@
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 767px) {
+  .logo {
+    background-color: yellow;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 7000px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: white;
+}
+
+.navigation {
+  padding: 20px;
+}
+
+.logo {
+  background-color: yellow;
+  height: 100px;
+}
+
+.contactInfo {
+  background-color: blue;
+}
+
+.main {
+  padding: 0px 20px 20px 20px;
+}
+
+.title {
+  background-color: red;
+}
+
+.introduction {
+  margin-top: 20px;
+  background-color: green;
+}
+
+.meimg {
+  height: 150px;
+  margin-top: 20px;
+  background-color: pink;
+}
+
+.case {
+  height: 150px;
+  margin-top: 20px;
+  background-color: orange;
+}
