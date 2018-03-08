@@ -3,15 +3,8 @@ and (min-device-width : 375px)
 and (max-device-width : 767px) {
   .logo {
     margin-bottom: 20px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
   }
-  
-  .logoeid {
-    height: 80px;
-  }
-
   .ezraimg {
     display: none;
   }
