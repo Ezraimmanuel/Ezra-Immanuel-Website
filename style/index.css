@@ -155,6 +155,17 @@ body {
   padding: 10px;
 }
 
+.anim {
+  transition: all .2s ease-in-out;
+}
+.anim:hover {
+  transform: scale(0.95);
+}
+
+.anim:active {
+  transform: scale(1.05);
+}
+
 .smcontainer {
   padding: 0px;
   background-color: white;
@@ -207,11 +218,12 @@ body {
   background-size: 100%;
 }
 
-.case {
+.case.anim {
   height: 150px;
   margin-top: 20px;
   background-color: #EFEFEF;
   border-radius: 20px;
+  transition: all .2s ease-in-out;
 }
 
 .case.one {
