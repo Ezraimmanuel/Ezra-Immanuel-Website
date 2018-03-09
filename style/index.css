@@ -55,7 +55,6 @@ and (max-device-width : 7000px) {
   body {
   	background-color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -84,6 +83,10 @@ and (max-device-width : 7000px) {
   .main {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .first {
