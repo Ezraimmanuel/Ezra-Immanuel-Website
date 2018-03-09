@@ -11,6 +11,10 @@ and (max-device-width : 767px) {
   .ezraimg {
     display: none;
   }
+  .introduction {
+    padding: 0px 10px 10px 10px;
+    line-height: 25px;
+  }
 }
 
 @media only screen
