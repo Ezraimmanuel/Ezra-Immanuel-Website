@@ -37,14 +37,8 @@ and (max-device-width : 1024px) {
   .ezraimg {
     display: none;
   }
-  .portfolio {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
 
   .case {
-    flex-basis: 30%;
     background-size: 70%;
   }
 }
