@@ -32,6 +32,10 @@ and (max-device-width : 1024px) {
   .ezraimg {
     display: none;
   }
+
+  .case.one {
+    background-size: 30%;
+  }
 }
 
 @media only screen
@@ -159,7 +163,7 @@ body {
 .title {
   color: #231F20;
   padding: 10px 10px 0px 10px;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   font-size: 36px;
   display: flex;
@@ -185,6 +189,27 @@ body {
   margin-top: 20px;
   background-color: #EFEFEF;
   border-radius: 20px;
+}
+
+.case.one {
+  background-image: url(pictures/tokolekki.png);
+  background-position: center bottom;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.case.two {
+  background-image: url(pictures/samenwijzer.png);
+  background-position: center bottom;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.case.three {
+  background-image: url(pictures/kravmaganederland.png);
+  background-position: center bottom;
+  background-size: 60%;
+  background-repeat: no-repeat;
 }
 
 footer {
